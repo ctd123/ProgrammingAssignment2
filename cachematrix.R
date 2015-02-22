@@ -1,7 +1,7 @@
 ## These functions take a matrix, find its inverse, then cache (store) the results so 
 ## the inverse can be retrieved from the cache without having to recalculate it.
 
-## function makeCacheMatrix creates a list of 3 functions, set, get, setinverse, and getinverse
+## function makeCacheMatrix creates a list of 4 functions, set, get, setinverse, and getinverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
